@@ -21,34 +21,50 @@
 
 12. 
 A) student.name
+
 B) student["Grad Year"]
+
 C) student.greeting()
+
 D) student["Favorite Teacher"].name
+
 E) student.courseLoad[0]
 
 13. 
 A) "32". 2 gets converted into a string and gets concatenated to 3 so it becomes "32".
+
 B) 1. 3 gets converted into a number and then is subracted by 2 to make 1.
+
 C) 3. This is because null is converted to 0 and 3 + 0 is 3.
+
 D) "3null". This is because null gets converted to a string and is concatenated to 3 making it 3null.
+
 E) 4. true gets converted to 1 and is added to 3 making it 4.
+
 F) 0. false and null is converted to 0 and 0 + 0 is 0.
+
 G) "3undefined". undefined is converted to a string and is concatenated to 3 making it 3undefined.
+
 H) "NaN". This is because undefined is converted to NaN and subtracting with NaN results in a NaN.
 
 14. 
-A) true. "2" is converted to 1 and 
+A) true. "2" is converted to 2 and it is bigger than 1.
+
 B) false. "2" is compared to "12" lexigraphically and it is false since "12" is greater lexigraphically.
+
 C) true. They are the same value after "2" is converted to a number.
+
 D) false. This is a strict equality check and the types are not the same.
+
 E) false. true is converted to 1 but it is not equal to 2.
+
 F) true. Boolean(2) is converted to true and true is strictly equal to true.
 
 15. == is a normal equality that does type conversion before comparing while === is a strict equality, checking both equality and type (does not perform type conversion before). 
 
 16. [Done](./part1b-question16.js)
 
-17. [2, 4, 6]. We create a new array (newArr) and this is 
+17. [2, 4, 6]. We create a new array (newArr) and it is looped through in the for loop. For each iteration, we call the callback function doSomething which returns the element multiplied by 2. Effectively we multiplied all of the old elements in the array by 2.
 
 18. [Done](./part1b-question18.js)
 
