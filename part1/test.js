@@ -10,7 +10,6 @@
 
 // sumValues(10, 10, true);
 
-
 // function discountPrices(prices, discount) {
 //     let discounted = [];
 //     let finalPrice = 0;
